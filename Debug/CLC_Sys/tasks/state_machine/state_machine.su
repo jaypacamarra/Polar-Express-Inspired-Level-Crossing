@@ -1,0 +1,2 @@
+state_machine.c:11:6:vTask_StateMachine	24	static
+state_machine.c:50:9:state_machine_get_state	4	static

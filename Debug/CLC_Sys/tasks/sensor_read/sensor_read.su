@@ -1,0 +1,3 @@
+sensor_read.c:20:6:vTask_SensorRead	16	static
+sensor_read.c:40:9:intersection_ctrl_get_sensor1_reading	4	static
+sensor_read.c:45:9:intersection_ctrl_get_sensor2_reading	4	static
