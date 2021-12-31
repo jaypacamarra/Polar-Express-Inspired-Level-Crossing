@@ -1,2 +1,3 @@
-state_machine.c:11:6:vTask_StateMachine	24	static
-state_machine.c:50:9:state_machine_get_state	4	static
+state_machine.c:12:6:vTask_StateMachine	24	static
+state_machine.c:71:9:state_machine_get_state	4	static
+state_machine.c:76:6:CLC_train_set_exit_timeout	16	static

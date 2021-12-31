@@ -1,3 +1,8 @@
-sensor_read.c:20:6:vTask_SensorRead	16	static
-sensor_read.c:40:9:intersection_ctrl_get_sensor1_reading	4	static
-sensor_read.c:45:9:intersection_ctrl_get_sensor2_reading	4	static
+sensor_read.c:25:6:vTask_SensorRead	16	static
+sensor_read.c:71:9:sensor_read_get_sensor1_reading	4	static
+sensor_read.c:76:9:sensor_read_get_sensor2_reading	4	static
+sensor_read.c:81:9:sensor_read_get_exit_sensor	4	static
+sensor_read.c:86:6:sensor_read_set_sensor1_cond_timer_state	16	static
+sensor_read.c:91:6:sensor_read_set_sensor2_cond_timer_state	16	static
+sensor_read.c:96:9:sensor_read_sensor1_conditioned	32	static
+sensor_read.c:125:9:sensor_read_sensor2_conditioned	32	static

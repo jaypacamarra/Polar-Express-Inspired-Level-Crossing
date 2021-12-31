@@ -29,6 +29,7 @@
 #include "intersection_ctrl.h"
 #include "sensor_read.h"
 #include "state_machine.h"
+#include "software_timers.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -87,6 +88,8 @@ int main(void)
   SEGGER_SYSVIEW_Conf();
   SEGGER_SYSVIEW_Start();
 
+//  software_timers_init();
+
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -100,12 +103,12 @@ int main(void)
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
 
-  /* Create tasks - allocate static memory to heap */
+  /* Create tasks - dynamically allocate memory to heap */
   status = xTaskCreate(vTask_IntersectionCtrl,"Task_IntersectionCtrl",100,NULL,2,NULL);
   configASSERT(status == pdPASS);
-  status = xTaskCreate(vTask_SensorRead,"Task_SensorRead",100,NULL,2,NULL);
+  status = xTaskCreate(vTask_SensorRead,"Task_SensorRead",300,NULL,2,NULL);
   configASSERT(status == pdPASS);
-  status = xTaskCreate(vTask_StateMachine,"Task_StateMachine",100,NULL,2,NULL);
+  status = xTaskCreate(vTask_StateMachine,"Task_StateMachine",200,NULL,2,NULL);
   configASSERT(status == pdPASS);
 
   vTaskStartScheduler();

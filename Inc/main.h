@@ -33,6 +33,10 @@ extern "C" {
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <stdint.h>
+#include "FreeRTOS.h"
+#include "timers.h"
+#include "software_timers.h"
+#include "task.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -129,7 +133,12 @@ void Error_Handler(void);
 #define MEMS_INT2_Pin GPIO_PIN_1
 #define MEMS_INT2_GPIO_Port GPIOE
 /* USER CODE BEGIN Private defines */
-
+#define HIGH	1U
+#define LOW		0U
+#define true	1U
+#define TRUE	1U
+#define false	0U
+#define FALSE	0U
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
