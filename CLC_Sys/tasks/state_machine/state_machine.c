@@ -24,47 +24,51 @@ void vTask_StateMachine(void* params)
 		uint8_t sens1 = sensor_read_get_sensor1_reading();
 		uint8_t sens2 = sensor_read_get_sensor2_reading();
 
-		if ( sens1 == LOW && CLC_current_state == CLC_train_not_present )
+		if ( sens1 == LOW )
 		{
 			CLC_current_state = CLC_train_crossing;
 		}
-		else if ( sens2 == LOW && CLC_current_state == CLC_train_not_present )
+		if ( sens2 == LOW )
 		{
-			CLC_current_state = CLC_train_crossing;
+			CLC_current_state = CLC_train_exit;
 		}
 
-		if ( sensor_read_get_exit_sensor() == exit_sensor_sens1
-				&& CLC_current_state == CLC_train_crossing )
-		{
-			if ( sens1 == LOW )
-			{
-				CLC_current_state = CLC_train_exit;
-			}
-		}
-		else if ( sensor_read_get_exit_sensor() == exit_sensor_sens2
-				&& CLC_current_state == CLC_train_crossing )
-		{
-			if ( sens2 == LOW )
-			{
-				CLC_current_state = CLC_train_exit;
-			}
-		}
-
-//		if ( CLC_current_state == CLC_train_exit )
+//		if ( sens1 == LOW && CLC_current_state == CLC_train_not_present )
 //		{
-//			if ( CLC_train_exit_timeout_timer_state == timer_not_started )
+//			CLC_current_state = CLC_train_crossing;
+//		}
+//		else if ( sens2 == LOW && CLC_current_state == CLC_train_not_present )
+//		{
+//			CLC_current_state = CLC_train_crossing;
+//		}
+//
+//		if ( sensor_read_get_exit_sensor() == exit_sensor_sens1
+//				&& CLC_current_state == CLC_train_crossing )
+//		{
+//			if ( sens1 == LOW )
 //			{
-//				static TimerHandle_t CLC_train_exit_timeout_handle;
-//				xTimerReset(CLC_train_exit_timeout_handle, pdMS_TO_TICKS(500));
-//			}
-//			if ( CLC_train_exit_timeout_timer_state == timer_expired )
-//			{
-//				CLC_current_state = CLC_train_not_present;
-//				CLC_train_exit_timeout_timer_state = timer_not_started;
+//				CLC_current_state = CLC_train_exit;
 //			}
 //		}
-
-
+//		else if ( sensor_read_get_exit_sensor() == exit_sensor_sens2
+//				&& CLC_current_state == CLC_train_crossing )
+//		{
+//			if ( sens2 == LOW )
+//			{
+//				CLC_current_state = CLC_train_exit;
+//
+//				if ( CLC_train_exit_timeout_timer_state == timer_not_started )
+//				{
+//					static TimerHandle_t CLC_train_exit_timeout_handle;
+//					xTimerReset(CLC_train_exit_timeout_handle, pdMS_TO_TICKS(500));
+//				}
+//			}
+//		}
+//		if ( CLC_train_exit_timeout_timer_state == timer_expired )
+//		{
+//			CLC_current_state = CLC_train_not_present;
+//			CLC_train_exit_timeout_timer_state = timer_not_started;
+//		}
 	}
 }
 

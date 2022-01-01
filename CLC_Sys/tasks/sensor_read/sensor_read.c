@@ -47,22 +47,22 @@ void vTask_SensorRead(void* params)
 		sensor2_reading = HAL_GPIO_ReadPin(Sensor2_GPIO_Port, Sensor2_Pin);
 
 		/* exit sensor is sensor2 */
-		if ( sensor1_reading == LOW && sensor2_reading == HIGH )
-		{
-			exit_sensor = exit_sensor_sens2;
-		}
-
-		/* exit sensor is sensor1 */
-		else if ( sensor1_reading == HIGH && sensor2_reading == LOW )
-		{
-			exit_sensor = exit_sensor_sens1;
-		}
-
-		/* Any other combination is reset */
-		else
-		{
-			exit_sensor = exit_sensor_reset;
-		}
+//		if ( sensor1_reading == LOW && sensor2_reading == HIGH )
+//		{
+//			exit_sensor = exit_sensor_sens2;
+//		}
+//
+//		/* exit sensor is sensor1 */
+//		else if ( sensor1_reading == HIGH && sensor2_reading == LOW )
+//		{
+//			exit_sensor = exit_sensor_sens1;
+//		}
+//
+//		/* Any other combination is reset */
+//		if ( state_machine_get_state() == CLC_train_exit )
+//		{
+//			exit_sensor = exit_sensor_reset;
+//		}
 
 
 	}

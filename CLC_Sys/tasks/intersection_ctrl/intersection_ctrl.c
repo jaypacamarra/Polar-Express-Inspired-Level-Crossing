@@ -6,6 +6,8 @@
  */
 #include "intersection_ctrl.h"
 
+extern TIM_HandleTypeDef htim3;
+
 void vTask_IntersectionCtrl(void* params)
 {
 //	TickType_t xLastWakeTime;         // will hold the timestamp at which the task was last unblocked
@@ -23,14 +25,22 @@ void vTask_IntersectionCtrl(void* params)
 		{
 			HAL_GPIO_WritePin(LD5_GPIO_Port, LD5_Pin, 1);	/* Red Led On*/
 			HAL_GPIO_WritePin(LD4_GPIO_Port, LD4_Pin, 0);
+
+			/* Rotate 135 degrees? */
+			htim3.Instance->CCR1 = 18;
+//			HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
 		}
 		else
 		{
 			HAL_GPIO_WritePin(LD5_GPIO_Port, LD5_Pin, 0);	/* Green Led On*/
 			HAL_GPIO_WritePin(LD4_GPIO_Port, LD4_Pin, 1);
+
+			/* Rotate 45 degrees? */
+			htim3.Instance->CCR1 = 13;
+//			HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
 		}
 
-//		vTaskDelay(pdMS_TO_TICKS(50));
+
 
 	}
 }

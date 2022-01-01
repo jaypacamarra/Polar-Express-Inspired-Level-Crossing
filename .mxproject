@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=G:/My Drive/1. Engineering/Projects/PROJ-022 - Christmas Level Crossing/Software/STM32/Inc
+HeaderPath=G:/My Drive/1. Engineering/Projects/PROJ-022 - Christmas Level Crossing/Software/Polar-Express-Inspired-Level-Crossing/Inc
 HeaderFiles=stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;
-SourcePath=G:/My Drive/1. Engineering/Projects/PROJ-022 - Christmas Level Crossing/Software/STM32/Src
+SourcePath=G:/My Drive/1. Engineering/Projects/PROJ-022 - Christmas Level Crossing/Software/Polar-Express-Inspired-Level-Crossing/Src
 SourceFiles=stm32f4xx_it.c;stm32f4xx_hal_msp.c;main.c;stm32f4xx_hal_timebase_tim.c;
 
 [PreviousLibFiles]
