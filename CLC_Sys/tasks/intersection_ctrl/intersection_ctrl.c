@@ -23,12 +23,16 @@ void vTask_IntersectionCtrl(void* params)
 
 		if ( state_machine_get_state() == CLC_train_crossing )
 		{
-			HAL_GPIO_WritePin(LD5_GPIO_Port, LD5_Pin, 1);	/* Red Led On*/
+			HAL_GPIO_TogglePin(LD5_GPIO_Port, LD5_Pin);	/* Red Led On*/
 			HAL_GPIO_WritePin(LD4_GPIO_Port, LD4_Pin, 0);
 
 			/* Rotate 135 degrees? */
 			htim3.Instance->CCR1 = 18;
 //			HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
+
+			/* HAL_Delay and vTaskDelay same behaviour */
+//			HAL_Delay(750);
+			vTaskDelay(pdMS_TO_TICKS(750));
 		}
 		else
 		{
