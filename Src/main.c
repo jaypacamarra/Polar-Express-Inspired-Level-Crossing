@@ -77,7 +77,7 @@ int main(void)
   /* USER CODE BEGIN 1 */
 	BaseType_t status;
   /* USER CODE END 1 */
-  
+
 
   /* MCU Configuration--------------------------------------------------------*/
 
@@ -107,7 +107,8 @@ int main(void)
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
 
-  // start servo
+  // start servo - default gate is fully raised
+  htim3.Instance->CCR1 = GATE_CTRL_GATE_FULLY_RAISED_SERVO_VAL;
   HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
 
   /* Create tasks - dynamically allocate memory to heap */

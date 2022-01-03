@@ -56,4 +56,9 @@ void gate_ctrl_update_servo_angle(uint8_t servoDir)
 	htim3.Instance->CCR1 = gate_ctrl_servo_angle_check( htim3.Instance->CCR1 );
 }
 
+uint8_t gate_ctrl_gate_not_fully_raised(void)
+{
+	return htim3.Instance->CCR1 != GATE_CTRL_GATE_FULLY_RAISED_SERVO_VAL;
+}
+
 

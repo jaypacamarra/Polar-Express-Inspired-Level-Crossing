@@ -22,5 +22,6 @@
 
 void vTask_GateCtrl(void* params);
 void gate_ctrl_update_servo_angle(uint8_t servoDir);
+uint8_t gate_ctrl_gate_not_fully_raised(void);
 
 #endif /* GATE_CTRL_H */

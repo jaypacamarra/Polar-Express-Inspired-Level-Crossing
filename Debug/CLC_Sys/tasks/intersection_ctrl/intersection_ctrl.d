@@ -47,7 +47,8 @@ CLC_Sys/tasks/intersection_ctrl/intersection_ctrl.o: \
  G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/list.h \
  G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/task.h \
  G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/tasks/state_machine/state_machine.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/tasks/sensor_read/sensor_read.h
+ G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/tasks/sensor_read/sensor_read.h \
+ G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/tasks/gate_ctrl/gate_ctrl.h
 
 ../CLC_Sys/tasks/intersection_ctrl/intersection_ctrl.h:
 
@@ -146,3 +147,5 @@ G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/So
 G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/tasks/state_machine/state_machine.h:
 
 G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/tasks/sensor_read/sensor_read.h:
+
+G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/tasks/gate_ctrl/gate_ctrl.h:

@@ -12,5 +12,6 @@ void vTask_IntersectionCtrl(void* params);
 
 #include "main.h"
 #include "state_machine.h"
+#include "gate_ctrl.h"
 
 #endif /* INTERSECTION_CTRL_H */

@@ -19,7 +19,7 @@ void vTask_IntersectionCtrl(void* params)
 
 	for(;;)
 	{
-		if ( state_machine_get_state() == CLC_train_crossing )
+		if ( state_machine_get_state() == CLC_train_crossing || gate_ctrl_gate_not_fully_raised() )
 		{
 			/* Flash Red Led */
 			HAL_GPIO_TogglePin(LD5_GPIO_Port, LD5_Pin);
