@@ -30,6 +30,7 @@
 #include "sensor_read.h"
 #include "state_machine.h"
 #include "software_timers.h"
+#include "gate_ctrl.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -113,9 +114,11 @@ int main(void)
   HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
 
   /* Create tasks - dynamically allocate memory to heap */
-  status = xTaskCreate(vTask_IntersectionCtrl,"Task_IntersectionCtrl",100,NULL,2,NULL);
+  status = xTaskCreate(vTask_IntersectionCtrl,"Task_IntersectionCtrl",200,NULL,2,NULL);
   configASSERT(status == pdPASS);
-  status = xTaskCreate(vTask_SensorRead,"Task_SensorRead",300,NULL,2,NULL);
+  status = xTaskCreate(vTask_GateCtrl,"Task_GateCtrl",200,NULL,2,NULL);
+  configASSERT(status == pdPASS);
+  status = xTaskCreate(vTask_SensorRead,"Task_SensorRead",200,NULL,2,NULL);
   configASSERT(status == pdPASS);
   status = xTaskCreate(vTask_StateMachine,"Task_StateMachine",200,NULL,2,NULL);
   configASSERT(status == pdPASS);
@@ -243,9 +246,9 @@ static void MX_TIM3_Init(void)
 
   /* USER CODE END TIM3_Init 1 */
   htim3.Instance = TIM3;
-  htim3.Init.Prescaler = 625.0-1;
+  htim3.Init.Prescaler = 6.250-1;
   htim3.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim3.Init.Period = 200;
+  htim3.Init.Period = 20000-1;
   htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim3.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
   if (HAL_TIM_Base_Init(&htim3) != HAL_OK)
@@ -268,7 +271,7 @@ static void MX_TIM3_Init(void)
     Error_Handler();
   }
   sConfigOC.OCMode = TIM_OCMODE_PWM1;
-  sConfigOC.Pulse = 15;
+  sConfigOC.Pulse = 1300;
   sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
   sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
   if (HAL_TIM_PWM_ConfigChannel(&htim3, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)

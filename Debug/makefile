@@ -21,6 +21,7 @@ RM := rm -rf
 -include CLC_Sys/tasks/state_machine/subdir.mk
 -include CLC_Sys/tasks/sensor_read/subdir.mk
 -include CLC_Sys/tasks/intersection_ctrl/subdir.mk
+-include CLC_Sys/tasks/gate_ctrl/subdir.mk
 -include CLC_Sys/software_timers/subdir.mk
 -include subdir.mk
 -include objects.mk

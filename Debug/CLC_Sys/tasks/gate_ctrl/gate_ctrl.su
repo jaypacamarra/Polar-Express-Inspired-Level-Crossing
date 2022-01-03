@@ -1,0 +1,2 @@
+gate_ctrl.c:11:6:vTask_GateCtrl	16	static
+gate_ctrl.c:32:6:gate_ctrl_update_servo_angle	16	static

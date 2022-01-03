@@ -17,6 +17,7 @@ C_DEPS :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 CLC_Sys/software_timers \
+CLC_Sys/tasks/gate_ctrl \
 CLC_Sys/tasks/intersection_ctrl \
 CLC_Sys/tasks/sensor_read \
 CLC_Sys/tasks/state_machine \
