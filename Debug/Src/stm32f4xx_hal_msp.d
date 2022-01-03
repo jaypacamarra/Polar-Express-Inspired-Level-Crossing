@@ -43,9 +43,6 @@ Src/stm32f4xx_hal_msp.o: ../Src/stm32f4xx_hal_msp.c ../Inc/main.h \
  G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/timers.h \
  G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/task.h \
  G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/list.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/software_timers/software_timers.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/tasks/sensor_read/sensor_read.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/tasks/state_machine/state_machine.h \
  G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/task.h
 
 ../Inc/main.h:
@@ -137,11 +134,5 @@ G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/So
 G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/task.h:
 
 G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/list.h:
-
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/software_timers/software_timers.h:
-
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/tasks/sensor_read/sensor_read.h:
-
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/tasks/state_machine/state_machine.h:
 
 G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/task.h:

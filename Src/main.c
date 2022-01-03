@@ -29,7 +29,6 @@
 #include "intersection_ctrl.h"
 #include "sensor_read.h"
 #include "state_machine.h"
-#include "software_timers.h"
 #include "gate_ctrl.h"
 /* USER CODE END Includes */
 
@@ -92,8 +91,6 @@ int main(void)
   // start segger sys view
   SEGGER_SYSVIEW_Conf();
   SEGGER_SYSVIEW_Start();
-
-  software_timers_init();
 
   /* USER CODE END Init */
 

@@ -21,6 +21,5 @@ typedef enum
 }CLC_state;
 
 uint8_t state_machine_get_state(void);
-void CLC_train_set_exit_timeout( uint8_t exit_timeout );
 
 #endif /* STATE_MACHINE_H */

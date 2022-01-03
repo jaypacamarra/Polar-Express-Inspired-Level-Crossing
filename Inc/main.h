@@ -35,7 +35,6 @@ extern "C" {
 #include <stdint.h>
 #include "FreeRTOS.h"
 #include "timers.h"
-#include "software_timers.h"
 #include "task.h"
 /* USER CODE END Includes */
 

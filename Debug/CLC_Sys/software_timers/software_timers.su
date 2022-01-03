@@ -1,4 +1,0 @@
-software_timers.c:12:6:software_timers_init	24	static,ignoring_inline_asm
-software_timers.c:43:6:sensor1_cond_tim_callback	16	static
-software_timers.c:48:6:sensor2_cond_tim_callback	16	static
-software_timers.c:53:6:CLC_train_exit_timeout_ballback	16	static

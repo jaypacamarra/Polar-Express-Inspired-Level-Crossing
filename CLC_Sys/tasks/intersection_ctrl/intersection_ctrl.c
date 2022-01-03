@@ -1,10 +1,12 @@
-/*
- * intersection_ctrl.c
- *
- *  Created on: Dec 30, 2021
- *      Author: jpaca
- */
 #include "intersection_ctrl.h"
+
+/*
+ * vTask_IntersectionCtrl
+ *
+ * Toggles red led to flash if train is crossing
+ * Otherwise, solid green led
+ *
+ */
 
 extern TIM_HandleTypeDef htim3;
 
