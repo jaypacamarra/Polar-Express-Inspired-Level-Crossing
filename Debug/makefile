@@ -48,8 +48,8 @@ xmas_crossing_freertos.list \
 all: xmas_crossing_freertos.elf secondary-outputs
 
 # Tool invocations
-xmas_crossing_freertos.elf: $(OBJS) $(USER_OBJS) G:\My\ Drive\1.\ Engineering\Projects\PROJ-022\ -\ Christmas\ Level\ Crossing\Software\Polar-Express-Inspired-Level-Crossing\STM32F407VGTX_FLASH.ld
-	arm-none-eabi-gcc -o "xmas_crossing_freertos.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"G:\My Drive\1. Engineering\Projects\PROJ-022 - Christmas Level Crossing\Software\Polar-Express-Inspired-Level-Crossing\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="xmas_crossing_freertos.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+xmas_crossing_freertos.elf: $(OBJS) $(USER_OBJS) G:\My\ Drive\1.\ Engineering\Projects\ (Old\ organization\ system)\1.\ Active\ Projects\Christmas\ Level\ Crossing\Software\Polar-Express-Inspired-Level-Crossing\STM32F407VGTX_FLASH.ld
+	arm-none-eabi-gcc -o "xmas_crossing_freertos.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"G:\My Drive\1. Engineering\Projects (Old organization system)\1. Active Projects\Christmas Level Crossing\Software\Polar-Express-Inspired-Level-Crossing\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="xmas_crossing_freertos.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

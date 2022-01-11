@@ -15,13 +15,13 @@ void vTask_GateCtrl(void* params)
 	for( ; ; )
 	{
 		/* slowly lower gate */
-		if ( state_machine_get_state() == CLC_train_crossing )
+		if ( state_machine_get_state() == CLC_train_crossing || state_machine_get_state() == CLC_train_exit_in_progress )
 		{
 			gate_ctrl_update_servo_angle( GATE_CTRL_LOWER );
 		}
 
 		/* slowly raise gate */
-		else /* train is not crossing */
+		else if ( state_machine_get_state() == CLC_train_exit_fully )
 		{
 			gate_ctrl_update_servo_angle( GATE_CTRL_RAISE );
 		}

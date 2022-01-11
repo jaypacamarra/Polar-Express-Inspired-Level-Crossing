@@ -1,2 +1,2 @@
-state_machine.c:13:6:vTask_StateMachine	24	static
-state_machine.c:31:9:state_machine_get_state	4	static
+state_machine.c:13:6:vTask_StateMachine	16	static
+state_machine.c:29:9:state_machine_get_state	4	static

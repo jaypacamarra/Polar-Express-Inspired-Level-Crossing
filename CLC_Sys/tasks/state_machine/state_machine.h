@@ -17,7 +17,8 @@ typedef enum
 {
 	CLC_train_not_present = 0,
 	CLC_train_crossing,
-	CLC_train_exit
+	CLC_train_exit_in_progress,
+	CLC_train_exit_fully
 }CLC_state;
 
 uint8_t state_machine_get_state(void);

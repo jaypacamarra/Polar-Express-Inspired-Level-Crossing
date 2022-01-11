@@ -14,16 +14,14 @@ void vTask_StateMachine(void* params)
 {
 	for(;;)
 	{
-		uint8_t sens1 = sensor_read_get_sensor1_reading();
-		uint8_t sens2 = sensor_read_get_sensor2_reading();
-
-		if ( sens1 == LOW )
+		if ( sensor_read_get_sensor1_reading() == LOW )
 		{
-			CLC_current_state = CLC_train_crossing;
-		}
-		if ( sens2 == LOW )
-		{
-			CLC_current_state = CLC_train_exit;
+			while ( sensor_read_get_sensor2_reading() == HIGH )
+				CLC_current_state = CLC_train_crossing;
+			while ( sensor_read_get_sensor2_reading() == LOW )
+				CLC_current_state = CLC_train_exit_in_progress;
+			CLC_current_state = CLC_train_exit_fully;
+			vTaskDelay(pdMS_TO_TICKS(2000)); //delay to make sure train fully exits
 		}
 	}
 }

@@ -1,20 +1,20 @@
 CLC_Sys/tasks/gate_ctrl/gate_ctrl.o: \
  ../CLC_Sys/tasks/gate_ctrl/gate_ctrl.c \
  ../CLC_Sys/tasks/gate_ctrl/gate_ctrl.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/FreeRTOS.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/FreeRTOSConfig.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/SEGGER/SEGGER.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/Config/Global.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Conf.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/Config/SEGGER_RTT_Conf.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/projdefs.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/portable.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/deprecated_definitions.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/mpu_wrappers.h \
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/FreeRTOS.h \
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/FreeRTOSConfig.h \
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.h \
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.h \
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/SEGGER/SEGGER.h \
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/Config/Global.h \
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h \
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Conf.h \
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/Config/SEGGER_RTT_Conf.h \
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/projdefs.h \
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/portable.h \
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/deprecated_definitions.h \
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h \
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/mpu_wrappers.h \
  ../Inc/main.h ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -42,42 +42,42 @@ CLC_Sys/tasks/gate_ctrl/gate_ctrl.o: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/timers.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/task.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/list.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/task.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/tasks/state_machine/state_machine.h \
- G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/tasks/sensor_read/sensor_read.h
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/timers.h \
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/task.h \
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/list.h \
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/task.h \
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/tasks/state_machine/state_machine.h \
+ G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/tasks/sensor_read/sensor_read.h
 
 ../CLC_Sys/tasks/gate_ctrl/gate_ctrl.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/FreeRTOS.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/FreeRTOS.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/FreeRTOSConfig.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/FreeRTOSConfig.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/SEGGER/SEGGER.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/SEGGER/SEGGER.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/Config/Global.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/Config/Global.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Conf.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Conf.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/Config/SEGGER_RTT_Conf.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/SEGGER/Config/SEGGER_RTT_Conf.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/projdefs.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/projdefs.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/portable.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/portable.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/deprecated_definitions.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/deprecated_definitions.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/mpu_wrappers.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/mpu_wrappers.h:
 
 ../Inc/main.h:
 
@@ -135,14 +135,14 @@ G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/So
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/timers.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/timers.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/task.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/task.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/list.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/list.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/task.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/ThirdParty/FreeRTOS/include/task.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/tasks/state_machine/state_machine.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/tasks/state_machine/state_machine.h:
 
-G:/My\ Drive/1.\ Engineering/Projects/PROJ-022\ -\ Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/tasks/sensor_read/sensor_read.h:
+G:/My\ Drive/1.\ Engineering/Projects\ (Old\ organization\ system)/1.\ Active\ Projects/Christmas\ Level\ Crossing/Software/Polar-Express-Inspired-Level-Crossing/CLC_Sys/tasks/sensor_read/sensor_read.h:
